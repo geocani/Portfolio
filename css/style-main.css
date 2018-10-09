@@ -1,8 +1,8 @@
 .container{
-    background-color: #4089a6
+    background-color: #4089a6;
 }
 body{
-    background-color: #4089a6
+    background-color: #4089a6;
 }
 
 
@@ -67,7 +67,7 @@ transition: .5s ease;
 opacity: 0;
 }
 .overlay-image .hover {
-background-color: rgba(0,0,0,0.5);
+background-color: #9e7a2d6b;;
 }
 
 
