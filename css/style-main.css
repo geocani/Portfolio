@@ -6,6 +6,40 @@ body{
 }
 
 
+/* Lettres padding */
+
+.l1{
+    width: 20px;
+    border: 1px solid red;
+margin-top: 15px;
+color: red;
+transform:rotate(30deg);
+}
+.l2{
+    padding-bottom: 15px;
+    color: red;
+}
+.l3{
+    
+}
+
+.tout{
+    margin-top: 50px;
+display: flex;
+}
+.haut{
+    border: 1px solid red;
+    top: 10px;
+}
+.bas{
+    border: 1px solid red;
+    padding-top: 10px;
+}
+
+
+
+
+
 
 .card-deck{
     margin-top: 20px;
