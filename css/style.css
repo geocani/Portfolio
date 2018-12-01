@@ -1,0 +1,37 @@
+*{
+    box-sizing: 
+}
+
+
+header{
+    height: 280px;
+    width: 100%;
+    background-color: aqua;
+}
+.cont-me{
+    background-color: brown;
+    min-height: 100vh;
+}
+.cont-rea{
+    background-color: blue;
+    min-height: 100vh;
+
+}
+.cont-xp{
+    background-color: brown;
+    min-height: 100vh;
+}
+.cont-dip{
+    background-color: blue;
+    min-height: 100vh;
+
+}
+.cont-int{
+    background-color: brown;
+    min-height: 100vh;
+}
+.cont-contact{
+    background-color: blue;
+    min-height: 100vh;
+
+}
