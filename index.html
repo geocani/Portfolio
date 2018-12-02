@@ -4,17 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link href="css/style.css" rel="stylesheet">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
     <header>
-        <div class="content">
-            <h2>Geoffrey Canivet</h2>
-            <p>Curiculum vitae developpeur web</p>
-        </div>   
-        <div id="navbar">
+        <div class="header">
+            <h1>Geoffrey Canivet</h1>
+            <h2>Curiculum vitae developpeur web</h2>
+        </div>
+        <nav class="topnav" id="myTopnav">
             <a href="#me">A propos</a>
             <a href="#comp">Compétences</a>
             <a href="#rea">Réalisations</a>
@@ -22,36 +25,166 @@
             <a href="#dip">Qualifiquations</a>
             <a href="#int">Intérêts</a>
             <a href="#contact">Contact</a>
-        </div>    
+            <div >
+                <a class="icon" href="javascript:void(0);" onclick="burger()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
     </header>
-
-    <section class="cont-me" id="me">
-        <h1>A propos</h1>
-    </section>
-
-    <section class="cont-comp" id="comp">
-        <h1>Compétances</h1>
-    </section>
-
-    <section class="cont-rea" id="rea">
-        <h1>Réalisations</h1>
-    </section>
-
-    <section class="cont-xp" id="xp">
-        <h1>Expérience</h1>
-    </section>
-
-    <section class="cont-dip" id="dip">
-        <h1>Diplomes</h1>
-    </section>
-
-    <section class="cont-int" id="int">
-        <h1>intérêts</h1>
-    </section>
-
-    <section class="cont-contact" id="contact">
-        <h1>Contact</h1>
-    </section>
+    
+    <main>
+        <section class="cont-me" id="me">
+            <div class="container">
+                <h2>A propos</h2>
+            </div>
+        </section>
+    
+        <section class="cont-comp" id="comp">
+            <h2>Compétances</h2>
+        </section>
+    
+        <section class="cont-rea" id="rea">
+            <div class="container">
+                <h2>Réalisations</h2>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="cont-xp" id="xp">
+            <h2>Expérience</h2>
+        </section>
+    
+        <section class="cont-dip" id="dip">
+            <h2>Diplomes</h2>
+        </section>
+    
+        <section class="cont-int" id="int">
+            <h2>intérêts</h2>
+        </section>
+    
+        <section class="cont-contact" id="contact">
+            <h2>Contact</h2>
+        </section>
+    </main>
+    
+    <footer>
+        <p>un</p>
+        <p>deux</p>
+    </footer>
 
 </body>
 </html>
@@ -59,16 +192,34 @@
 
 
 <script>
-    window.onscroll = function() {myFunction()};
+//STIKY
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
 
-    var navbar = document.getElementById("");
-    var sticky = navbar.offsetTop;
+// Get the navbar
+var navbar = document.getElementById("myTopnav");
 
-    function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky")
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+//BURGER
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function burger() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
     } else {
-        navbar.classList.remove("sticky");
+        x.className = "topnav";
     }
-    }
+}
 </script>
