@@ -36,12 +36,16 @@ nav a{
     margin-bottom: -8px;
     padding-top: 80px;
     background-color: #e1dfdf;
+    
     min-height: 100vh;
 }
 .cont-rea{
     margin-bottom: -8px;
-    padding-top: 80px;
+    padding: 80px 0 30px 0;
     background-color: #d0d0d0;
+    
+    
+    
     min-height: 100vh;
 }
 .card{
@@ -141,6 +145,7 @@ nav a{
   @media screen and (max-width: 600px) {
     .card{
         margin-bottom: 20px;
+        
     }
 }
   
@@ -150,6 +155,9 @@ nav a{
     .topnav a.icon {
       float: right;
       display: block;
+    }
+    .card-text{
+        display: none;
     }
   }
   
