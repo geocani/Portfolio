@@ -12,6 +12,7 @@ nav{
 nav a{
     
 }
+
 .icon{
     display: none;
 }
@@ -111,8 +112,12 @@ nav a{
     text-align: center;
     padding: 14px;
     text-decoration: none;
+    transition: 1s;
   }
-  
+  .lienActif{
+    transition: 1s;
+    border-bottom: 5px solid red;
+   }
   /* Page content */
   .content {
     padding: 16px;

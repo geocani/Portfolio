@@ -18,13 +18,13 @@
             <h2>Curiculum vitae developpeur web</h2>
         </div>
         <nav class="topnav" id="myTopnav">
-            <a href="#me">A propos</a>
-            <a href="#comp">Compétences</a>
-            <a href="#rea">Réalisations</a>
-            <a href="#xp">Eprériences</a>
-            <a href="#dip">Qualifiquations</a>
-            <a href="#int">Intérêts</a>
-            <a href="#contact">Contact</a>
+            <a class="lien-me" href="#me">A propos</a>
+            <a class="lien-comp" href="#comp">Compétences</a>
+            <a class="lien-rea" href="#rea">Réalisations</a>
+            <a class="lien-xp" href="#xp">Eprériences</a>
+            <a class="lien-dip" href="#dip">Qualifiquations</a>
+            <a class="lien-int" href="#int">Intérêts</a>
+            <a class="lien-contact" href="#contact">Contact</a>
             <div >
                 <a class="icon" href="javascript:void(0);" onclick="burger()"><i class="fa fa-bars"></i></a>
             </div>
@@ -107,9 +107,9 @@
                 <div class="row">
                     <div class="col-3">
                         <div class="card">
-                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <img class="card-img-top" src="assets/img/stage.png" alt="Card image cap">
                             <div class="card-body">
-                                <h5 class="card-title">Card title</h5>
+                                <h5 class="card-title">Site stage</h5>
                                 <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
                                 <div class="card-link">
                                     <a href=""><small class="text-muted">En savoir plus</small></a>
@@ -191,7 +191,7 @@
 </html>
 
 
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
 //STIKY
 // When the user scrolls the page, execute myFunction 
@@ -223,4 +223,38 @@ function burger() {
         x.className = "topnav";
     }
 }
+
+// SCROLL
+function auScroll(){
+    setInterval(function(){ console.log($('html').scrollTop()); }, 100);
+    $(window).scroll(function(){ // Lors du scroll
+        if($(window).scrollTop() < 570){ // scrollTop() retourne la position vertical de la scrollbar
+            
+            $('.lien-comp').addClass('lienActif'); // Ajoute une class
+            $('a').not('.lien-comp').removeClass('lienActif'); // tout sauf
+        }
+        else if($(window).scrollTop() > 570 && $(window).scrollTop() < 1254){
+            
+            $('.lien-rea').addClass('lienActif');
+            $('a').not('.lien-rea').removeClass('lienActif');
+        }
+        else if($(window).scrollTop() > 1254 && $(window).scrollTop() < 2036){
+            
+            $('.lien-xp').addClass('lienActif');
+            $('a').not('.lien-xp').removeClass('lienActif');
+        }
+        else if($(window).scrollTop() > 2036 && $(window).scrollTop() < 2720){
+            
+            $('.lien-dip').addClass('lienActif');
+            $('a').not('.lien-dip').removeClass('lienActif');
+        }
+        else if($(window).scrollTop() > 2720){
+            
+            $('.lien-int').addClass('lienActif');
+            $('a').not('.lien-int').removeClass('lienActif');
+        }
+    });	
+};
+
+ auScroll();
 </script>
