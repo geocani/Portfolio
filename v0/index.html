@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="assets/css/style.css" rel="stylesheet">
+    <title>Document</title>
+</head>
+<body>
+
+    <header>
+            <section class="cont-me" id="me">
+                    <div class="container">
+                        <div class="qui">
+                            <!-- <h1>QUI SUIS-JE?</h1> -->
+                            <h1>GEOFFREY CANIVET</h1>
+                            <h2 class="soust">back & front web developer</h2>
+                        </div>
+                        <div class="row">
+                            <div class="col-md-4 propos">
+                                <h3>A PROPOS</h3>
+                                <p>Fan depuis toujours, d'informatique et de nouvelles technologies, 
+                                    j'ai entrepris des études d'arts plastiques en secondaire, puis d'infographie en supérieur. 
+                                    Ensuite j ai suivis la formation BeCode pour aquerire toutes les compétences necessaire dans le monde de la programmation et du developpement web.
+                                    Durant ces cursus j'ai appris à être autodidacte et à développer un esprit logique, dynamique et débrouillard.
+                                </p>
+                                </div>
+                            <div class="col-md-4 avatar">
+                                    <!-- <img src="assets/img/man.svg" alt=""> -->
+                                    <img src="assets/img/photo.jpg" alt="">
+                                    <figcaption><cite>"Je m'éfforce à rendre le web meilleur"</cite></figcaption>
+                                    
+                            </div>
+                            <div class="col-md-4 details">
+                                    <h3>DETAILS</h3>
+                                    <ul>
+                                        <li><i class="fa fa-user"></i> Canivet Geoffrey</li>
+                                        <li><i class="fa fa-calendar"></i> 17 Juillet 1985</li>
+                                        <li><i class="fa fa-address-book"></i> Région de Charleroi (BE)</li>
+                                        <li><i class="fa fa-paper-plane"></i> geoffreycanivet@gmail.com</li>
+                                        <li><i class="fa fa-phone"></i> +32 479 246 664</li>
+                                    </ul>
+                            </div>
+                        </div>
+                        <div class="continue">
+                            <a href="#comp">Suivez-moi</a>
+                        </div>
+                        
+                    </div>
+                </section>
+        <nav class="topnav" id="myTopnav">
+            <a class="lien-me" href="#me">Acceuil</a>
+            <a class="lien-me" href="#me">Qui suis-je?</a>
+            <a class="lien-comp" href="#comp">Compétences</a>
+            <a class="lien-rea" href="#rea">Réalisations</a>
+            <a class="lien-dip" href="#dip">Formation / Expériences</a>
+            <a class="lien-contact" href="#contact">Contact</a>
+            <div >
+                <a class="icon" href="javascript:void(0);" onclick="burger()"><i class="fa fa-bars"></i></a>
+            </div>
+        </nav>
+    </header>
+    
+    <main>
+        
+    <!-- COMPETENCES -->
+        
+
+
+        <section class="cont-comp" id="comp">
+            <h2>Compétances</h2>
+            
+            <div class="container">
+                <div class="container-flex"> 
+                    <div class="container-ico-comp">
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                    </div>
+                    <div class="container-ico-comp">
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    <!-- REALITATIONS -->
+        <section class="cont-rea" id="rea">
+            <div class="container">
+                <h2>Réalisations</h2>
+                <div class="row">
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/ban-deplacements.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Déplacements</h5>
+                                <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/ban-memory.svg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Memory Game</h5>
+                                                    
+                                <p class="card-text">Le jeu se compose de paires de cartes portant des illustrations identiques, Retourne deux cartes. Si les cartes sont identiques, vous avez gagné</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>               
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/ban-plusmoins.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Juste Prix</h5>
+                                <p class="card-text">Le jeu consiste à évaluer correctement le prix de divers biens de consommation à l'aide des indice plus ou moins.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-md">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/ban-pendu.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Le Pendu</h5>
+                                <p class="card-text">"Le Pendu" consiste à trouver un mot en devinant les lettres qui le composent. Le jeu se joue traditionnellement à deux.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/stage.png" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Site stage</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                    <div class="col-3">
+                        <div class="card">
+                            <img class="card-img-top" src="assets/img/image.jpg" alt="Card image cap">
+                            <div class="card-body">
+                                <h5 class="card-title">Card title</h5>
+                                <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                                <div class="card-link">
+                                    <a href=""><small class="text-muted">En savoir plus</small></a>
+                                    <p><small>|</small></p>
+                                    <a href=""><small class="text-muted">Visiter</small></a>
+                                </div>
+                            </div>
+                        </div>              
+                    </div>
+                </div>
+            </div>
+        </section>
+    
+        <section class="cont-xp" id="xp">
+            <h2>Expérience</h2>
+        </section>
+    
+        <section class="cont-dip" id="dip">
+            <h2>Diplomes</h2>
+        </section>
+    
+        <section class="cont-int" id="int">
+            <h2>intérêts</h2>
+        </section>
+    
+        <section class="cont-contact" id="contact">
+            <h2>Contact</h2>
+        </section>
+    </main>
+    
+    <footer>
+        <p>un</p>
+        <p>deux</p>
+    </footer>
+
+</body>
+</html>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script>
+//SCROLLBOT
+
+function scrollBottom(){
+    let screenHeight = $(window).height();
+    console.log(screenHeight);
+    $('body').animate({scrollTop: screenHeight}, 500)
+}
+
+//STIKY
+// When the user scrolls the page, execute myFunction 
+window.onscroll = function() {myFunction()};
+
+// Get the navbar
+var navbar = document.getElementById("myTopnav");
+
+// Get the offset position of the navbar
+var sticky = navbar.offsetTop;
+
+// Add the sticky class to the navbar when you reach its scroll position. Remove "sticky" when you leave the scroll position
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+
+
+//BURGER
+/* Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon */
+function burger() {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
+        x.className += " responsive";
+    } else {
+        x.className = "topnav";
+    }
+}
+
+// SCROLL
+function auScroll(){
+    // setInterval(function(){ console.log($('html').scrollTop()); }, 100);
+    $(window).scroll(function(){ // Lors du scroll
+        if($(window).scrollTop() < 570){ // scrollTop() retourne la position vertical de la scrollbar
+            
+            $('.lien-comp').addClass('lienActif'); // Ajoute une class
+            $('a').not('.lien-comp').removeClass('lienActif'); // tout sauf
+        }
+        else if($(window).scrollTop() > 570 && $(window).scrollTop() < 1254){
+            
+            $('.lien-rea').addClass('lienActif');
+            $('a').not('.lien-rea').removeClass('lienActif');
+        }
+        else if($(window).scrollTop() > 1254 && $(window).scrollTop() < 2036){
+            
+            $('.lien-xp').addClass('lienActif');
+            $('a').not('.lien-xp').removeClass('lienActif');
+        }
+        else if($(window).scrollTop() > 2036 && $(window).scrollTop() < 2720){
+            
+            $('.lien-dip').addClass('lienActif');
+            $('a').not('.lien-dip').removeClass('lienActif');
+        }
+        else if($(window).scrollTop() > 2720){
+            
+            $('.lien-int').addClass('lienActif');
+            $('a').not('.lien-int').removeClass('lienActif');
+        }
+    });	
+};
+
+ auScroll();
+</script>

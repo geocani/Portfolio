@@ -5,25 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <!-- Load an icon library to show a hamburger menu (bars) on small screens -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <link href="assets/css/style.css" rel="stylesheet">
     <title>Document</title>
 </head>
 <body>
 
-    <header>
-        <div class="header">
-            <h1>Geoffrey Canivet</h1>
-            <h2>Curiculum vitae developpeur web</h2>
+    <header>  
+        <div class="qui">
+            <!-- <h1>QUI SUIS-JE?</h1> -->
+            <h1>GEOFFREY CANIVET W</h1>
+            <h2 class="soust">back & front web developer</h2>
+            <p>CV interactif</p>
+            
         </div>
         <nav class="topnav" id="myTopnav">
-            <a class="lien-me" href="#me">A propos</a>
+            <a class="lien-me" href="#me">Acceuil</a>
+            <a class="lien-me" href="#me">Qui suis-je?</a>
             <a class="lien-comp" href="#comp">Compétences</a>
             <a class="lien-rea" href="#rea">Réalisations</a>
-            <a class="lien-xp" href="#xp">Eprériences</a>
-            <a class="lien-dip" href="#dip">Qualifiquations</a>
-            <a class="lien-int" href="#int">Intérêts</a>
+            <a class="lien-dip" href="#dip">Formation / Expériences</a>
             <a class="lien-contact" href="#contact">Contact</a>
             <div >
                 <a class="icon" href="javascript:void(0);" onclick="burger()"><i class="fa fa-bars"></i></a>
@@ -32,16 +36,77 @@
     </header>
     
     <main>
-        <section class="cont-me" id="me">
-            <div class="container">
-                <h2>A propos</h2>
+        
+    <!-- PRESENTATION -->
+    <section class="cont-me" id="me">
+        <div class="container">
+            <div class="titre">
+                <h2>Qui suis-je?</h2> 
+                <p></p>
             </div>
-        </section>
-    
+            <div class="sep"></div>
+            <div class="row">
+                <div class="col-md-4 propos">
+                    <h3>Profil</h3>
+                    <p>Fan depuis toujours, d'informatique et de nouvelles technologies, 
+                        j'ai entrepris des études d'arts plastiques en secondaire, puis d'infographie en supérieur. 
+                        Ensuite j ai suivis la formation BeCode pour aquerire toutes les compétences necessaire dans le monde de la programmation et du developpement web.
+                        Durant ces cursus j'ai appris à être autodidacte et à développer un esprit logique, dynamique et débrouillard.
+                    </p>
+                    </div>
+                <div class="col-md-4 avatar">
+                    <!-- <img src="assets/img/man.svg" alt=""> -->
+                    <img src="assets/img/photo.jpg" alt="">
+                    <!-- <figcaption><cite>"Je m'éfforce à rendre le web meilleur"</cite></figcaption>   -->
+                </div>
+                <div class="col-md-4 details">
+                    <h3>Détails</h3>
+                    <ul>
+                        <li><i class="fa fa-user"></i> Canivet Geoffrey</li>
+                        <li><i class="fa fa-calendar"></i> 17 Juillet 1985</li>
+                        <li><i class="fa fa-address-book"></i> Région de Charleroi (BE)</li>
+                        <li><i class="fa fa-paper-plane"></i> geoffreycanivet@gmail.com</li>
+                        <li><i class="fa fa-phone"></i> +32 479 246 664</li>
+                    </ul>
+                </div>
+            </div>
+            <div class="arrow">
+                <img src="assets/img/down-arrow.svg" alt="">
+            </div>
+                    
+        </div>
+    </section>
+
+
         <section class="cont-comp" id="comp">
             <h2>Compétances</h2>
+            
+            <div class="container">
+                <div class="container-flex"> 
+                    <div class="container-ico-comp">
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                    </div>
+                    <div class="container-ico-comp">
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                        <div class="ico-comp">
+                            <img src="assets/img/html.svg"  width="150px" alt="">
+                            <p>One of three columns</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </section>
-    
+    <!-- REALITATIONS -->
         <section class="cont-rea" id="rea">
             <div class="container">
                 <h2>Réalisations</h2>
@@ -193,6 +258,14 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>
+//SCROLLBOT
+
+function scrollBottom(){
+    let screenHeight = $(window).height();
+    console.log(screenHeight);
+    $('body').animate({scrollTop: screenHeight}, 500)
+}
+
 //STIKY
 // When the user scrolls the page, execute myFunction 
 window.onscroll = function() {myFunction()};
@@ -226,7 +299,7 @@ function burger() {
 
 // SCROLL
 function auScroll(){
-    setInterval(function(){ console.log($('html').scrollTop()); }, 100);
+    // setInterval(function(){ console.log($('html').scrollTop()); }, 100);
     $(window).scroll(function(){ // Lors du scroll
         if($(window).scrollTop() < 570){ // scrollTop() retourne la position vertical de la scrollbar
             
