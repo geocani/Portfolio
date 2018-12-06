@@ -9,13 +9,13 @@
    xmlns="http://www.w3.org/2000/svg"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="77.863098mm"
-   height="47.624996mm"
-   viewBox="0 0 77.863098 47.624996"
+   width="350"
+   height="200"
+   viewBox="0 0 92.604163 52.916667"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="bann-deplacements.svg">
+   sodipodi:docname="ban-deplacements.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -41,7 +41,8 @@
      inkscape:window-y="-9"
      inkscape:window-maximized="1"
      showguides="true"
-     inkscape:guide-bbox="true" />
+     inkscape:guide-bbox="true"
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -58,18 +59,18 @@
      inkscape:label="Calque 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-24.190477,-57.363094)">
+     transform="translate(-24.190477,-52.07142)">
     <rect
-       style="fill:#233c4f;fill-opacity:1;stroke:none;stroke-width:0.44906107;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="fill:#233c4f;fill-opacity:1;stroke:none;stroke-width:0.51228946;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect2160-7-3"
-       width="78.656715"
-       height="48.796597"
-       x="23.793669"
-       y="57.344254"
+       width="93.412338"
+       height="53.473812"
+       x="24.060938"
+       y="51.865231"
        ry="0" />
     <g
        id="g5365"
-       transform="matrix(0.66024808,0,0,0.66024808,50.338795,61.055736)"
+       transform="matrix(0.72353371,0,0,0.72353371,56.22405,56.199731)"
        style="fill:#ffffff;fill-opacity:1">
       <g
          id="g5308"
@@ -132,29 +133,29 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.67125607px;line-height:20;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63321865;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       x="38.936771"
-       y="91.434753"
+       style="font-style:normal;font-weight:normal;font-size:7.31070471px;line-height:20;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.69391346;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       x="43.767338"
+       y="89.863159"
        id="text5591"
        transform="scale(0.96521006,1.0360439)"><tspan
          sodipodi:role="line"
          id="tspan5589"
-         x="38.936771"
-         y="91.434753"
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.63321865;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DEPLACEMENTS</tspan></text>
+         x="43.767338"
+         y="89.863159"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:sans-serif;-inkscape-font-specification:sans-serif;fill:#ffffff;fill-opacity:1;stroke:#ffffff;stroke-width:0.69391346;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1">DEPLACEMENTS</tspan></text>
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.27347067"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.29968318"
        id="rect5593"
-       width="55.462574"
-       height="1.5437905"
-       x="36.280281"
-       y="86.372345" />
+       width="60.778732"
+       height="1.6917647"
+       x="40.818008"
+       y="83.94297" />
     <rect
-       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.27335706"
+       style="fill:#ffffff;fill-opacity:1;stroke:none;stroke-width:0.2995587"
        id="rect5593-0"
-       width="55.416508"
-       height="1.5437905"
-       x="36.288315"
-       y="96.699883" />
+       width="60.728252"
+       height="1.6917647"
+       x="40.826813"
+       y="95.260414" />
   </g>
 </svg>
