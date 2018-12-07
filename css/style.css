@@ -9,7 +9,16 @@
     3.2 board right
 4.0 MEDIA QUERIES
 --------------------------------------------------------------*/
+section{
+    padding: 3rem 0;
+}
+.ic{
+    padding-right: 15px;
 
+}
+li i{
+    color: #22A39F;
+}
 .gm{
     font-size: 50px;
     font-family: "Times New Roman";
@@ -287,7 +296,7 @@ figcaption{
 }
 .cont-comp{
     margin-bottom: -8px;
-    padding-top: 20px;
+    /* padding-top: 20px; */
     background-color: white;
     min-height: 100vh;
 }
@@ -357,8 +366,11 @@ flex-wrap: wrap;
 }
 .liste{
     text-align: center;
-    margin-top: 40px;
+    margin-top: 60px;
     margin-bottom: 30px;
+}
+.pagination{
+    margin-top: 20px;
 }
 /*--------------------------------------------------------------
 0.0 REALISATION
@@ -560,6 +572,7 @@ h4{text-align:center;margin:30px 0;color:#444}
 /*--------------------------------------------------------------
 4.0 MEDIA QUERIES
 --------------------------------------------------------------*/
+#particles-js{ position:absolute; width: 100%; height: 100%; background-color: #b61924; background-image: url(""); background-repeat: no-repeat; background-size: cover; background-position: 50% 50%; } /* ---- stats.js ---- */ .count-particles{ background: #000022; position: absolute; top: 48px; left: 0; width: 80px; color: #13E8E9; font-size: .8em; text-align: left; text-indent: 4px; line-height: 14px; padding-bottom: 2px; font-family: Helvetica, Arial, sans-serif; font-weight: bold; } .js-count-particles{ font-size: 1.1em; } #stats, .count-particles{ -webkit-user-select: none; margin-top: 5px; margin-left: 5px; } #stats{ border-radius: 3px 3px 0 0; overflow: hidden; } .count-particles{ border-radius: 0 0 3px 3px; }
 
   @media(max-width:480px){}
   @media(max-width:767px){}
@@ -569,12 +582,16 @@ h4{text-align:center;margin:30px 0;color:#444}
 
   }
   @media screen and (max-width: 600px) {
+    
     .card{
         margin-bottom: 20px;
         
     }
     .container-ico-comp{
         display: block;
+    }
+    #realisations{
+        /* display: none; */
     }
 }
   /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
