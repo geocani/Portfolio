@@ -204,7 +204,7 @@ header.masthead h2 {
 /* FORM */
 .floating-label-form-group {
   position: relative;
-  border-bottom: 1px solid #e9ecef;
+  border-bottom: 1px solid rgba(34, 163, 159, 0.541);
 }
 
 .floating-label-form-group input,
