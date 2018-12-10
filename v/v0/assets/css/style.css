@@ -1,0 +1,423 @@
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+0.0 RESET
+1.0 HEADER
+2.0 SIDE MENU
+3.0 MAIN
+	3.1 board left
+    3.2 board right
+4.0 MEDIA QUERIES
+--------------------------------------------------------------*/
+.gm{
+    font-size: 50px;
+    font-family: "Times New Roman";
+    font-style: italic;
+    font-family: 'Gamja Flower', cursive; 
+}
+.cit{
+    font-style: italic;
+}
+.black{
+    color: #434242;
+}
+.s-titre h3{
+    padding-left: 20px;
+}
+/*--------------------------------------------------------------
+0.0 RESET
+--------------------------------------------------------------*/
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Raleway', sans-serif;
+    color: #434242;
+}
+ul, li{
+    list-style-type: none;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+}
+h1{
+    font-weight: 900;
+}
+h2{
+    color: #22A39F;
+    font-size: 55px;
+}
+h3{
+    color: #22A39F;
+    font-weight: 100;
+    padding-bottom: 20px;
+    font-size: 28px;
+}
+/*--------------------------------------------------------------
+0.0 RESET BOOTSTRAP
+--------------------------------------------------------------*/
+.container{
+    max-width: 1400px;
+}
+/*--------------------------------------------------------------
+0.0 HEADER
+--------------------------------------------------------------*/
+header{
+    background-color: #22A39F;
+    background-attachment: fixed;
+    background-image: url("https://www.transparenttextures.com/patterns/shattered-dark.png");
+    /* background-image: url("https://www.transparenttextures.com/patterns/transparent-square-tiles.png"); */
+    -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.822);
+    box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.514);
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    margin-bottom: -8px;
+}
+.qui{
+    min-height: 100vh;
+    text-align: center;
+    
+}
+
+/*--------------------------------------------------------------
+0.0 NAV
+--------------------------------------------------------------*/
+nav{
+    z-index: 10;
+}
+nav a:hover{
+    color: #22A39F;
+}
+.topnav a{
+    
+}
+.topnav{
+    text-align: center;
+}
+  .topnav .icon {
+    display: none;
+  }
+ /* Style the navbar */
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+  }
+  
+  /* Navbar links */
+  .topnav a {
+    float: left;
+    display: block;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px;
+    padding-bottom: 7px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    transition: 1s;
+  }
+  .lienActif{
+    color: #22A39F;
+    transition: 1s;
+    border-bottom: 2px solid #22A39F;
+   }
+  /* Page content */
+  .content {
+    padding: 16px;
+  }
+  
+  /* The sticky class is added to the navbar with JS when it reaches its scroll position */
+  .sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  /* Add some top padding to the page content to prevent sudden quick movement (as the navigation bar gets a new position at the top of the page (position:fixed and top:0) */
+  .sticky + .content {
+    padding-top: 60px;
+  } 
+/*--------------------------------------------------------------
+0.0 PRESENTATION
+--------------------------------------------------------------*/
+.arrow{
+    margin-top: 80px;
+    text-align: center;
+}
+.arrow img{
+    transition: 1s;
+    width: 50px;
+    opacity: 0.5;
+}
+.arrow img:hover{
+    transition: 1s;
+    cursor: pointer;
+    width: 50px;
+    opacity: 1;
+}
+.cont-me{
+    margin-bottom: -8px;
+    padding-top: 80px;
+    background-color: #f3efe0;
+    min-height: 100vh;
+}
+.soust{
+    font-weight: 100;
+    border-top: 2px solid rgb(95, 93, 93);
+    display: inline;
+    padding-top: 3px;
+ 
+}
+
+.titre{
+    text-align: center;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.titre p{
+   
+    font-style: italic;
+}
+figcaption{
+    padding-top: 10px;
+}
+.flex-me{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center; */
+}
+
+.propos p{
+    
+    /* text-shadow: 1px 1px #efefef; */
+    text-align: justify;
+}
+.sep{
+    margin: auto;
+    width: 80%;
+    border-top: 1px solid rgba(34, 163, 159, 0.422);
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+.avatar{
+    text-align: center;
+}
+.avatar img{
+    margin: 0 15px 0 15px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 100%;
+    overflow: hidden;
+    border: 15px solid white;
+    transition: 0.7s;
+}
+.avatar img:hover{
+    transition: 0.7s;
+    border: 15px solid rgba(34, 163, 159, 0.21);
+}
+.details li{
+    padding-bottom: 10px;
+}
+.row{
+    align-items: center;
+}
+.continue{
+    margin-top: 30px;
+    text-align: center;
+}
+.fa{
+    padding-right: 15px;
+}
+/*--------------------------------------------------------------
+0.0 COMPETENCES
+--------------------------------------------------------------*/
+.titre-comp{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.cont-comp{
+    margin-bottom: -8px;
+    padding-top: 20px;
+    background-color: white;
+    min-height: 100vh;
+}
+.container-flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.container-ico-comp{
+    display: block;
+    display: flex;
+    flex-wrap: wrap;
+}
+.ico-comp{
+    text-align: center;
+    /* border: 1px solid red; */
+    width: 200px;
+    margin: 0 50px 0 50px;
+}
+.ico-comp img{
+    margin-bottom: 10px;
+}
+.ico-comp h3{
+    padding-bottom: 0;
+    margin-bottom: 15px;
+}
+.cont-outils{
+/* border: 1px solid blue; */
+display: flex;
+flex-wrap: wrap;
+}
+.outils-front{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 35%;
+    /* border: 1px solid red; */
+}
+.outils-back{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 35%;
+    /* border: 1px solid red; */
+}
+.outils-autres{
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 30%;
+    /* border: 1px solid red; */
+}
+.s-titre{
+    display: flex;
+    flex-wrap: wrap;
+}
+.programmation{
+    width: 70%;
+}
+.autres{
+    width: 30%;
+}
+.cont-outils p{
+    border-radius: 5px;
+    color: #f3efe0;
+    margin: 0 0 15px 0;
+    padding: 5px 5px 5px 5px;
+    background-color: #22A39F;
+    font-weight: 900;
+}
+.liste{
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+/*--------------------------------------------------------------
+0.0 REALISATION
+--------------------------------------------------------------*/
+.cont-rea{
+    margin-bottom: -8px;
+    padding: 80px 0 30px 0;
+    background-color: #f3efe0;
+    min-height: 100vh;
+}
+.card{
+    /* max-width: 500px; */
+    transition: 0.5s;
+    color: #515151;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+}
+.card:hover{
+    transition: 0.5s;
+    -webkit-transform: rotate(3deg);
+    transform: rotate(3deg);
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+}
+.card-link{
+    display: inline-flex;
+}
+.card-link p{
+    padding: 0 15px 0 15px;
+}
+.card-link a{
+    
+}
+.card-link a:hover{
+    
+}
+/*--------------------------------------------------------------
+4.0 FORMATION
+--------------------------------------------------------------*/
+.cont-dip{
+    margin-bottom: -8px;
+    padding-top: 80px;
+    background-color: #d0d0d0;
+    min-height: 100vh;
+}
+/*--------------------------------------------------------------
+4.0 INTERETS
+--------------------------------------------------------------*/
+.cont-int{
+    margin-bottom: -8px;
+    padding-top: 80px;
+    background-color: #e1dfdf;
+    min-height: 100vh;
+}
+/*--------------------------------------------------------------
+4.0 MEDIA CONTACT
+--------------------------------------------------------------*/
+.cont-contact{
+    margin-bottom: -8px;
+    padding-top: 80px;
+    background-color: #d0d0d0;
+    min-height: 100vh;
+}
+/*--------------------------------------------------------------
+4.0 MEDIA QUERIES
+--------------------------------------------------------------*/
+
+  @media(max-width:480px){}
+  @media(max-width:767px){}
+  @media(min-width:768px){}
+  @media(min-width:992px){}
+  @media(max-width:1200px){
+
+  }
+  @media screen and (max-width: 600px) {
+    .card{
+        margin-bottom: 20px;
+        
+    }
+    .container-ico-comp{
+        display: block;
+    }
+}
+  /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
+@media screen and (max-width: 700px) {
+    .topnav a:not(:first-child) {display: none;}
+    .topnav a.icon {
+      float: right;
+      display: block;
+    }
+    .card-text{
+        display: none;
+    }
+  }
+  
+  /* The "responsive" class is added to the topnav with JavaScript when the user clicks on the icon. This class makes the topnav look good on small screens (display the links vertically instead of horizontally) */
+  @media screen and (max-width: 700px) {
+    .topnav.responsive {position: relative;}
+    .topnav.responsive a.icon {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  }
