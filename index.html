@@ -24,7 +24,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
-        <div class="container">
+   
             <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <i class="fas fa-bars"></i>Menu
             </button>
@@ -50,19 +50,26 @@
                     </li>
                 </ul>
             </div>
-        </div>
+   
     </nav>
 
     <!-- Header -->
     <header class="">
         <div id="large-header" class="large-header">
             <canvas id="demo-canvas"></canvas>
-            <h1 class="main-title">CANIVET <span class="thin">Geoffrey</span></h1>
-            <div class="row row-call main-title">
-                <div class="btn-style">
-                    <button class="button button-continuer"><a href="#competences">Continuer</a></button>
-                </div>
+            <div class="main-title">
+                <h1 class=""><span class="canivet">CANIVET</span> GEOFFREY </h1>
+                <img src="assets/img/web.svg" alt="" width="100px">
+                <h2 class="">Developer <span class="canivet">web</span></h2>
+                <h3>CV interactif</h3>
+                
+                    <div class="btn-style">
+                        <a class="download-cv" href="#about">Continuer</a>
+                    </div>
+                
             </div>
+            <!-- <img class="main-title" src="assets/img/canivet.svg" alt=""> -->
+            
         </div>
     </header>
 
@@ -73,10 +80,24 @@
                 <h2><i class="fas fa-code ic"></i>Qui suis-je?</h2> 
                 <p class="cit"><span class="gm">“ </span> J’ai toujours rêvé que mon ordinateur soit aussi simple à utiliser que mon téléphone. Ce rêve est devenu réalité : je ne comprends plus comment utiliser mon téléphone - Bjarne Stroustrup<span class="gm">”</span></p>
             </div>
-            <div class="sep">
-                <!-- Separation -->
-            </div>
+            <!-- <div class="sep">
+                <p>ok</p>
+            </div> -->
             <div class="row">
+                <div class="col-md-4 avatar">
+                    <img class="avatar-img" src="assets/img/photo.jpg" alt="">
+                    <div class="lien">
+                            <a href="www.google.com" target="_blank">
+                                <img src="assets/img/mail.svg" alt="">
+                            </a>
+                            <a href="www.google.com" target="_blank">
+                                <img src="assets/img/git.svg" alt="">
+                            </a>
+                            <a href="www.google.com" target="_blank">
+                                <img src="assets/img/linke.svg" alt="">
+                            </a>
+                        </div>
+                </div>
                 <div class="col-md-4 propos">
                     <h3>Profil</h3>
                     <p>Passonné depuis toujours d'informatique et de nouvelles technologies, 
@@ -84,23 +105,7 @@
                         Ensuite j ai suivis la formation BeCode pour aquerire toutes les compétences necessaire dans le monde de la programmation et du developpement web.
                         Durant ces cursus j'ai appris à être autodidacte et à développer un esprit logique, dynamique et débrouillard.
                     </p>
-                    <div class="lien">
-                        <a href="www.google.com" target="_blank">
-                            <img src="assets/img/pdf.svg" alt="">
-                        </a>
-                        <a href="www.google.com" target="_blank">
-                            <img src="assets/img/mail.svg" alt="">
-                        </a>
-                        <a href="www.google.com" target="_blank">
-                            <img src="assets/img/git.svg" alt="">
-                        </a>
-                        <a href="www.google.com" target="_blank">
-                            <img src="assets/img/linke.svg" alt="">
-                        </a>
-                    </div>
-                </div>
-                <div class="col-md-4 avatar">
-                    <img src="assets/img/photo.jpg" alt="">
+                    
                 </div>
                 <div class="col-md-4 details">
                     <h3>Détails</h3>
@@ -112,9 +117,9 @@
                         <li><i class="fa fa-phone"></i> +32 487 32 19 84</li>
                     </ul>
                 </div>
-                <div class="row row-call">
+                <div class="row-call">
                     <div class="btn-style">
-                        <button class="button button-continuer"><a href="#competences">Continuer</a></button>
+                        <a class="download-cv" href="">Télécharger mon CV</a>
                     </div>
                 </div>
             </div>  
@@ -266,135 +271,128 @@
         </div>
     </section>
 
-    <!-- PORTFOLIO -->
-    <section class="portfolio bg-blanc" id="realisations">
+
+    <!-- Portfolio Grid Section -->
+    <section class="portfolio bg-lanc" id="realisations">
+        <!-- PORTFOLIO Page Content -->
         <div class="container">
             <div class="titre-comp">
                 <h2><span class="icon-holder"><i class="fas fa-pencil-alt ic"></i></span>Réalisations</h2>
-                <p class="cit"><span class="gm">“ </span> Le but de la vie est le développement personnel. Parvenir à une parfaite réalisation de sa nature, bla bla bla. - Wilde (Oscar).
-                    <span class="gm">”</span></p>
+                <p class="cit"><span class="gm">“ </span> Le but de la vie est le développement personnel. Parvenir à une parfaite réalisation de sa nature, bla bla bla. - Wilde (Oscar). <span class="gm">”</span></p>
             </div>
+      
             <div class="row">
-                <!--deplacements-->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="assets/img/ban-deplacements.svg" alt="Avatar">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Déplacements</h3> 
-                                <p>Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p> 
-                                <a href="">VISITER</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!--memory-->
+                <!---->
                 <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="assets/img/ban-memory.svg" alt="Avatar">
-                            </div>
-                            <div class="flip-card-back">
-                                <h3>Memory Game</h3> 
-                                <p>Le jeu se compose de paires portant des illustrations identiques, Retourne deux cartes. Si les cartes sont identiques, vous avez gagné</p> 
-                                <a href="">VISITER</a>
-                            </div>
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="assets/img/ban-deplacements.svg" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Déplacements</h4>
+                            <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="">Visiter</a>
                         </div>
                     </div>
                 </div>
-                <!--juste prix-->
+                <!---->
                 <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="assets/img/ban-plusmoins.png" alt="Avatar">
-                            </div>
-                            <div class="flip-card-back">
-                                <h1>Juste Prix</h1> 
-                                <p>Le jeu consiste à évaluer correctement le prix de divers biens de consommation à l'aide des indice plus ou moins.</p> 
-                                <a href="">VISITER</a>
-                            </div>
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="assets/img/ban-memory.svg" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Jeu de mémoire</h4>
+                            <p class="card-text">Le jeu se compose de paires portant des illustrations identiques, Retourne deux cartes. Si les cartes sont identiques, vous avez gagné</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="">Visiter</a>
                         </div>
                     </div>
                 </div>
-                <!--pendu-->
+                <!---->
                 <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="assets/img/ban-pendu.png" alt="Avatar">
-                            </div>
-                            <div class="flip-card-back">
-                                <h1>Le Penu</h1> 
-                                <p>"Le Pendu" consiste à trouver un mot en devinant les lettres qui le composent. Le jeu se joue traditionnellement à deux.</p> 
-                                <a href="">VISITER</a>
-                            </div>
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="assets/img/ban-plusmoins.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Le juste prix</h4>
+                            <p class="card-text">Le jeu consiste à évaluer correctement le prix de divers biens de consommation à l'aide des indice plus ou moins.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="">Visiter</a>
                         </div>
                     </div>
                 </div>
-                <!--stage-->
+                <!---->
                 <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="assets/img/ban-deplacements.svg" alt="Avatar">
-                            </div>
-                            <div class="flip-card-back">
-                                <h1>Site stage</h1> 
-                                <p>"Le Pendu" consiste à trouver un mot en devinant les lettres qui le composent. Le jeu se joue traditionnellement à deux.</p> 
-                                <a href="">VISITER</a>
-                            </div>
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="assets/img/ban-pendu.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Pendu</h4>
+                            <p class="card-text">"Le Pendu" consiste à trouver un mot en devinant les lettres qui le composent. Le jeu se joue traditionnellement à deux.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="">Visiter</a>
                         </div>
                     </div>
                 </div>
-                <!--casse brique-->
+                <!---->
                 <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="flip-card">
-                        <div class="flip-card-inner">
-                            <div class="flip-card-front">
-                                <img src="assets/img/ban-deplacements.svg" alt="Avatar">
-                            </div>
-                            <div class="flip-card-back">
-                                <h1>John Doe</h1> 
-                                <p>Architect & Engineer</p> 
-                                <p>We love that guy</p>
-                            </div>
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="assets/img/stage.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Demande de stage</h4>
+                            <p class="card-text">Petit site réalisé en quelques heures lors de ma recherche de stage en 2017. J'ai finalement décroché un stage à la province de Namur.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="">Visiter</a>
                         </div>
                     </div>
                 </div>
-            </div> <!--row-->
+                <!---->
+                <div class="col-lg-4 col-sm-6 portfolio-item">
+                    <div class="card h-100">
+                        <a href="#"><img class="card-img-top" src="assets/img/ban-deplacements.svg" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Déplacements</h4>
+                            <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="">Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <!---->
+            </div><!-- /.row -->
+            
+      
             <!-- Pagination -->
-            <div class="pagination">
-                <ul class="pagination justify-content-center">
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                        </a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">1</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">2</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#">3</a>
-                    </li>
-                    <li class="page-item">
-                        <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-        </div>
-    </section>
+            <ul class="pagination justify-content-center">
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Previous">
+                  <span aria-hidden="true">&laquo;</span>
+                  <span class="sr-only">Previous</span>
+                </a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">1</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">2</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#">3</a>
+              </li>
+              <li class="page-item">
+                <a class="page-link" href="#" aria-label="Next">
+                  <span aria-hidden="true">&raquo;</span>
+                  <span class="sr-only">Next</span>
+                </a>
+              </li>
+            </ul>
+      
+          </div>
+          <!-- /.container -->
     
+        </section>
 
     <!-- Formations -->
     <section class="bg-gris mb-0" id="formations">
@@ -411,37 +409,55 @@
                             <span class="month"><img src="assets/img/webdev.svg" alt=""> </span> <!--div.ico-timeline-->
                         </span>
                         <h2 class="title">Développement Web</h2>
-                        <p class="description"> justo elementum nunc, ac efficitur tortor nunc sit amet dolor.justo elementum nunc, justo elementum nunc, ac efficitur tortor nunc sit amet dolor.justo elementum nunc, ac efficitur tortor nunc sit amet dolor.ac efficitur tortor nunc sit amet dolor.</p>
+                        <div class="description">
+                            <p class="">Début 2018 j'apprend la programmation et le développemet web grace à la formation BeCode au Quai10 à Charleroi.</p>
+                            <p>Option: Web development</p>
+                            <a href="https://www.becode.org/register/" target="_blank">En savoir plus</a>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="date">
-                            <span class="year">2015</span>
+                            <span class="year">2012</span>
                             <span class="month"><img src="assets/img/infog.svg" alt=""> </span> <!--div.ico-timeline-->
                         </span>
                         <h2 class="title">Infographie</h2>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus, quam non pellentesque consequat, massa justo elementum nunc, ac efficitur tortor nunc sit amet dolor.</p>
+                        <div class="description">
+                            <p class="">Affin d'améliorer mes conaissances dans le milieu du numérique, en 2015 j ai entrepris des études d'infographie à l'universiter tu travail de charleroi.</p>
+                            <p>Option: Infographie</p>
+                            <a href="https://www.etudierenhainaut.be/" target="_blank">En savoir plus</a>
+                        </div>
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="date">
-                            <span class="year">2009</span>
+                            <span class="year">2006</span>
                             <span class="month"><img src="assets/img/anim.svg" alt=""> </span> <!--div.ico-timeline-->
                         </span>
                         <h2 class="title">Animation numérique</h2>
-                        <p class="description"> justo elementum nunc, ac efficitur tortor nunc sit amejustjusto elementum nunc, ac efficitur tortor nunc sit amet dolor.o elementum nunc, ac efficitur tortor nunc sit amet dolor.t dolor.</p>
+                        <div class="description">
+                            <p class=""> En 2005 j ai suivis des études de recherche graphique déstinée à l'animation. Au saint de l'établissement St Luc à Bruxelles.</p>
+                            <p>Option: animation numérique (2ans sur 3)</p>
+                            <a href="http://www.stluc-bruxelles.be/spip.php?article2" target="_blank">En savoir plus</a>
+                        </div>
+                        
                     </div>
                 </div>
                 <div class="timeline">
                     <div class="timeline-content">
                         <span class="date">
-                            <span class="year">2008</span>
+                            <span class="year">2004</span>
                             <span class="month"><img src="assets/img/art.svg" width="70px" alt=""> </span> <!--div.ico-timeline-->
                         </span>
                         <h2 class="title">Art plastique</h2>
-                        <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla dapibus, quam non pellentesque consequat, massa justo elementum nunc, ac efficitur tortor nunc sit amet dolor.</p>
+                        <div class="description">
+                            <p class="">J'ai obtenu le certificat d’enseignement secondaire supérieur (CESS) en 2004 au CECS La Garenne de Charleroi.</p>
+                            <p>Option: art plastique</p>
+                            <a href="http://garenne-henridunant.be/ecole/arts/" target="_blank">En savoir plus</a>
+                        </div>
+                        
                     </div>
                 </div>
             </div>
@@ -559,11 +575,14 @@
 
     <!-- Custom scripts for this template -->
     <script src="js/freelancer.min.js"></script>
-
+    <!--Script background header-->
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>
     <script src="js/rAF.js"></script>
     <script src="js/demo-1.js"></script>
+    <!--Script txt header-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.4.1/snap.svg-min.js"> </script>
+    <script src="js/animTxt.js"></script>
 </body>
 
 </html>

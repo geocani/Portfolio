@@ -9,6 +9,26 @@
     3.2 board right
 4.0 MEDIA QUERIES
 --------------------------------------------------------------*/
+#table p{
+    display: none;
+}
+.download-cv{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgba(34, 163, 159, 0.596);
+    border-radius: 5px;
+    background: transparent;
+    /* color: #22A39F; */
+    font-weight: 900;
+    text-decoration: none;
+}
+.download-cv:hover{
+    padding: 10px 20px 10px 20px;
+    border-radius: 5px;
+    background: #22A39F;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-decoration: none;
+}
 section{
     padding: 3rem 0;
 }
@@ -47,6 +67,7 @@ li i{
 }
 .progress {
     margin-bottom: 10px;
+    background-color: #d0d0d048;
 }
 .progress-bar{
     
@@ -79,7 +100,7 @@ body{
 }
 ul, li{
     list-style-type: none;
-    font-size: 20px;
+    font-size: 16px;
 }
 html{
     scroll-behavior: smooth;
@@ -138,7 +159,8 @@ header{
 	top: 50%;
 	left: 50%;
 	-webkit-transform: translate3d(-50%,-50%,0);
-	transform: translate3d(-50%,-50%,0);
+    transform: translate3d(-50%,-50%,0);
+    color: #22A39F
 }
 header{
     position: relative;
@@ -151,9 +173,23 @@ header{
     -webkit-box-shadow: inset 0 0 100px rgba(0, 0, 0, 0.822);
     box-shadow: inset 0 0 50px rgba(0, 0, 0, 0.514);
 }
-
+.main-title h1{
+    font-size: 5vw;
+    padding-bottom: 50px;
+}
+.main-title h2{
+    color: #ffffff;
+    padding-top: 50px;
+}
+.main-title h3{
+    color: #ffffff;
+    padding-top: 20px;
+}
+.canivet{
+    color: #22A39F;
+}
 .presentation p, ul, li{
-    color: #434242;
+    
 }
 /*--------------------------------------------------------------
 0.0 NAV
@@ -261,37 +297,37 @@ figcaption{
     flex-wrap: wrap;
     /* justify-content: center; */
 }
-
+.row{
+   
+}
 .propos p{
     
     /* text-shadow: 1px 1px #efefef; */
     text-align: justify;
 }
-.sep{
-    margin: auto;
-    width: 80%;
-    border-top: 1px solid rgba(34, 163, 159, 0.422);
-    padding-top: 20px;
-    padding-bottom: 50px;
-}
+
 .avatar{
     text-align: center;
 }
-.avatar img{
+.avatar-img{
     margin: 0 15px 0 15px;
     width: 100%;
-    max-width: 300px;
+    max-width: 200px;
     border-radius: 100%;
     overflow: hidden;
     border: 15px solid white;
     transition: 0.7s;
 }
-.avatar img:hover{
+.avatar-img:hover{
     transition: 0.7s;
     border: 15px solid rgba(34, 163, 159, 0.21);
 }
 .details li{
     padding-bottom: 10px;
+    padding-left: 50px;
+}
+.details h3{
+    padding-left: 50px;
 }
 .row{
     align-items: center;
@@ -308,17 +344,16 @@ figcaption{
     
     margin: 20px auto 20px auto;
     display: flex;
+    justify-content: space-evenly;
 }
 .lien img{
-    margin-right: 30px;
-    width: 30px;
-    height: 30px;
+    
+    width: 25px;
+    height: 25px;
     transition: 0.5s;
     opacity: 0.5;
 }
 .lien img:hover{
-    width: 30px;
-    height: 30px;
     transition: 0.5s;
     opacity: 1;
 }
@@ -421,14 +456,15 @@ flex-wrap: wrap;
     /* max-width: 500px; */
     transition: 0.5s;
     color: #515151;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.75);
     margin-bottom: 25px;
+    max-width: 350px;
 }
 .card:hover{
     transition: 0.5s;
     -webkit-transform: rotate(3deg);
     transform: rotate(3deg);
-    box-shadow: 0px 0px 20px 0px rgba(0,0,0,1);
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,1);
 }
 .card-title{
     color:#22A39F;
