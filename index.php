@@ -116,7 +116,7 @@
                 </div>
                 <div class="row-call">
                     <div class="btn-style">
-                        <a class="download-cv" href="cv-geoffrey.pdf" target="blank">Télécharger mon CV</a>
+                        <a class="download-cv" href="cv-geoffrey-c.pdf" target="blank">Télécharger mon CV</a>
                     </div>
                 </div>
             </div>  
@@ -278,7 +278,7 @@
             </div>
             <div class="row">
                 <!--Déplacements-->
-                <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="col-lg-4 col-sm-6 ">
                     <div class="card h-100">
                         <a href="http://www.deplacements.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-deplacements.svg" alt=""></a>
                         <div class="card-body">
@@ -290,8 +290,21 @@
                         </div>
                     </div>
                 </div>
+                <!--Stage-->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card h-100">
+                        <a href="http://www.geoffrey.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/stage.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Demande de stage</h4>
+                            <p class="card-text">Petit site réalisé en quelques heures pour ma recherche de stage en 2018. (Finalement effectué à la Province de Namur)</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.geoffrey.surikate.be/" target="blank">Visiter</a>
+                        </div>
+                    </div>
+                </div>
                 <!--Mémory-->
-                <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="col-lg-4 col-sm-6">
                     <div class="card h-100">
                         <a href="http://www.memory.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-memory.svg" alt=""></a>
                         <div class="card-body">
@@ -304,7 +317,7 @@
                     </div>
                 </div>
                 <!--Juste Prix-->
-                <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="col-lg-4 col-sm-6">
                     <div class="card h-100">
                         <a href="http://www.justeprix.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-plusmoins.png" alt=""></a>
                         <div class="card-body">
@@ -316,8 +329,21 @@
                         </div>
                     </div>
                 </div>
+                <!--Casse Briques-->
+                <div class="col-lg-4 col-sm-6">
+                    <div class="card h-100">
+                        <a href="http://www.cassebriques.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/cassebriques.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Casse Briques</h4>
+                            <p class="card-text">Le casse-briques est un type de jeu vidéo. Il s'agit d'une évolution de Pong apparue en 1976.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.cassebriques.surikate.be/" target="blank">Visiter</a>
+                        </div>
+                    </div>
+                </div>
                 <!--Pendu-->
-                <div class="col-lg-4 col-sm-6 portfolio-item">
+                <div class="col-lg-4 col-sm-6">
                     <div class="card h-100">
                         <a href="http://www.pendu.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-pendu.png" alt=""></a>
                         <div class="card-body">
@@ -326,32 +352,6 @@
                         </div>
                         <div class="card-link">
                             <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.pendu.surikate.be/" target="blank">Visiter</a>
-                        </div>
-                    </div>
-                </div>
-                <!--Stage-->
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="http://www.geoffrey.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/stage.png" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">Demande de stage</h4>
-                            <p class="card-text">Réalisé en quelques heures pour ma recherche de stage en 2017.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.geoffrey.surikate.be/" target="blank">Visiter</a>
-                        </div>
-                    </div>
-                </div>
-                <!--Casse Briques-->
-                <div class="col-lg-4 col-sm-6 portfolio-item">
-                    <div class="card h-100">
-                        <a href="http://www.cassebriques.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-deplacements.svg" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">Déplacements</h4>
-                            <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.cassebriques.surikate.be/" target="blank">Visiter</a>
                         </div>
                     </div>
                 </div>
