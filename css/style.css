@@ -9,6 +9,29 @@
     3.2 board right
 4.0 MEDIA QUERIES
 --------------------------------------------------------------*/
+.btn-mail{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgba(34, 163, 159, 0.596);
+    border-radius: 5px;
+    background: transparent;
+    color: #22A39F;
+    font-weight: 900;
+    text-decoration: none;
+}
+.btn-mail:hover{
+    padding: 10px 20px 10px 20px;
+    border: 2px solid rgba(34, 163, 159, 0.596);
+    border-radius: 5px;
+    background: #22A39F;
+    color: rgb(255, 255, 255);
+    font-weight: 900;
+    text-decoration: none;
+    cursor: pointer;
+}
+.auteur{
+    opacity: 0.8;
+    color: #22A39F;
+}
 #table p{
     display: none;
 }
@@ -175,6 +198,7 @@ header{
 }
 .main-title h1{
     font-size: 70px;
+    padding-top: 60px;
     padding-bottom: 40px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 700;
@@ -580,7 +604,7 @@ flex-wrap: wrap;
     min-height: 100vh;
 }
 /*--------------------------------------------------------------
-4.0 MEDIA CONTACT
+4.0 CONTACT
 --------------------------------------------------------------*/
 .cont-contact{
     margin-bottom: -8px;
@@ -588,12 +612,13 @@ flex-wrap: wrap;
     background-color: #d0d0d0;
     min-height: 100vh;
 }
-/*--------------------------------------------------------------
-4.0 MEDIA QUERIES
---------------------------------------------------------------*/
-
-.floating-label-form-group input, .floating-label-form-group textarea {
-    color: red;
+.floating-label-form-group {
+    position: relative;
+    border-bottom: 1px solid rgba(24, 188, 155, 0.26);
+  }
+  
+  .floating-label-form-group input,
+  .floating-label-form-group textarea {
     font-size: 1.5em;
     position: relative;
     z-index: 1;
@@ -605,7 +630,46 @@ flex-wrap: wrap;
     background: none;
     -webkit-box-shadow: none !important;
     box-shadow: none !important;
-}
+  }
+  
+  .floating-label-form-group label {
+    font-size: 0.85em;
+    line-height: 1.764705882em;
+    position: relative;
+    z-index: 0;
+    top: 2em;
+    display: block;
+    margin: 0;
+    -webkit-transition: top 0.3s ease, opacity 0.3s ease;
+    transition: top 0.3s ease, opacity 0.3s ease;
+    vertical-align: middle;
+    vertical-align: baseline;
+    opacity: 0;
+  }
+  
+  .floating-label-form-group:not(:first-child) {
+    padding-left: 14px;
+    border-left: 1px solid #e9ecef;
+  }
+  
+  .floating-label-form-group-with-value label {
+    top: 0;
+    opacity: 1;
+    color:  #18BC9C;
+  }
+  
+  .floating-label-form-group-with-focus label {
+    color: #18BC9C;
+  }
+  
+  form .row:first-child .floating-label-form-group {
+    border-top: 1px solid #e9ecef;
+  }
+/*--------------------------------------------------------------
+4.0 MEDIA QUERIES
+--------------------------------------------------------------*/
+
+
 
 .row-call {
     text-align: center;
@@ -635,7 +699,6 @@ flex-wrap: wrap;
     text-decoration: none;
     color: white;
 }
-
 
 
 
