@@ -3,21 +3,15 @@
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="description" content="">
-    <meta name="author" content="">
     <link rel= "shortcut icon" href= "assets/img/terminal.png">
     <title>CV - Geoffrey Canivet</title>
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
     <!-- Google font -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Gamja+Flower" rel="stylesheet">
-    <!-- Custom CSS -->
-    <link href="css/freelancer.css" rel="stylesheet">
-    <link rel="stylesheet" href="css/time-line.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway|Gamja+Flower|Montserrat:400,700" rel="stylesheet">
+    <!-- CSS -->
     <link href="css/style.css" rel="stylesheet">
 </head>
 
@@ -116,7 +110,7 @@
                 </div>
                 <div class="row-call">
                     <div class="btn-style">
-                        <a class="download-cv" href="cv-geoffrey-c.pdf" target="blank">Télécharger mon CV</a>
+                        <a class="download-cv" href="assets/cv-geoffrey-c.pdf" target="blank">Télécharger mon CV</a>
                     </div>
                 </div>
             </div>  
@@ -384,34 +378,6 @@
                     </div> -->
                 </div>
             </div>
-
-            
-            
-            <!-- Pagination -->
-            <!-- <ul class="pagination justify-content-center">
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Previous">
-                        <span aria-hidden="true">&laquo;</span>
-                        <span class="sr-only">Previous</span>
-                    </a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">1</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">2</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#">3</a>
-                </li>
-                <li class="page-item">
-                    <a class="page-link" href="#" aria-label="Next">
-                        <span aria-hidden="true">&raquo;</span>
-                        <span class="sr-only">Next</span>
-                    </a>
-                </li>
-            </ul> -->
-      
         </div>
     </section>
 
@@ -425,9 +391,9 @@
             <div class="main-timeline">
                 <div class="timeline">
                     <div class="timeline-content">
-                        <span class="date"> <!--div.cont-ico-timeline-->
+                        <span class="date"> 
                             <span class="year">2018</span>
-                            <span class="month"><img src="assets/img/webdev.svg" alt=""> </span> <!--div.ico-timeline-->
+                            <span class="month"><img src="assets/img/webdev.svg" alt=""> </span> 
                         </span>
                         <h2 class="title">Développement Web</h2>
                         <div class="description">
@@ -441,7 +407,7 @@
                     <div class="timeline-content">
                         <span class="date">
                             <span class="year">2012</span>
-                            <span class="month"><img src="assets/img/infog.svg" alt=""> </span> <!--div.ico-timeline-->
+                            <span class="month"><img src="assets/img/infog.svg" alt=""> </span> 
                         </span>
                         <h2 class="title">Infographie</h2>
                         <div class="description">
@@ -455,7 +421,7 @@
                     <div class="timeline-content">
                         <span class="date">
                             <span class="year">2006</span>
-                            <span class="month"><img src="assets/img/anim.svg" alt=""> </span> <!--div.ico-timeline-->
+                            <span class="month"><img src="assets/img/anim.svg" alt=""> </span> 
                         </span>
                         <h2 class="title">Animation numérique</h2>
                         <div class="description">
@@ -470,7 +436,7 @@
                     <div class="timeline-content">
                         <span class="date">
                             <span class="year">2004</span>
-                            <span class="month"><img src="assets/img/art.svg" width="70px" alt=""> </span> <!--div.ico-timeline-->
+                            <span class="month"><img src="assets/img/art.svg" width="70px" alt=""> </span> 
                         </span>
                         <h2 class="title">Art plastique</h2>
                         <div class="description">
@@ -623,12 +589,8 @@
     <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
     <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
 
-    <!-- Contact Form JavaScript -->
-    <script src="js/jqBootstrapValidation.js"></script>
-    <script src="js/contact_me.js"></script>
-
-    <!-- Custom scripts for this template -->
-    <script src="js/freelancer.min.js"></script>
+    <!-- Nav et label -->
+    <script src="js/freelancer.js"></script>
     <!--Script background header-->
     <script src="js/TweenLite.min.js"></script>
     <script src="js/EasePack.min.js"></script>

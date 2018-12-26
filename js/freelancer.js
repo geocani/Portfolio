@@ -1,7 +1,7 @@
 (function($) {
-  "use strict"; // Start of use strict
+  "use strict"; 
 
-  // Smooth scrolling using jQuery easing
+  // Anim scroll automatique
   $('a.js-scroll-trigger[href*="#"]:not([href="#"])').click(function() {
     if (location.pathname.replace(/^\//, '') == this.pathname.replace(/^\//, '') && location.hostname == this.hostname) {
       var target = $(this.hash);
@@ -9,12 +9,11 @@
       if (target.length) {
         $('html, body').animate({
           scrollTop: (target.offset().top - 70)
-        }, 1000, "easeInOutExpo");
+        }, 200, "easeInOutExpo");
         return false;
       }
     }
   });
-
   // Scroll to top button appear
   $(document).scroll(function() {
     var scrollDistance = $(this).scrollTop();
@@ -24,19 +23,14 @@
       $('.scroll-to-top').fadeOut();
     }
   });
-
-  // Closes responsive menu when a scroll trigger link is clicked
   $('.js-scroll-trigger').click(function() {
     $('.navbar-collapse').collapse('hide');
   });
-
-  // Activate scrollspy to add active class to navbar items on scroll
   $('body').scrollspy({
     target: '#mainNav',
     offset: 80
   });
-
-  // Collapse Navbar
+  // remonter navbar
   var navbarCollapse = function() {
     if ($("#mainNav").offset().top > 100) {
       $("#mainNav").addClass("navbar-shrink");
@@ -44,24 +38,10 @@
       $("#mainNav").removeClass("navbar-shrink");
     }
   };
-  // Collapse now if page is not at top
-  navbarCollapse();
-  // Collapse the navbar when page is scrolled
-  $(window).scroll(navbarCollapse);
+  navbarCollapse();// remonte la navbar si la page est scrollé
+  $(window).scroll(navbarCollapse);// Remonte la navbar quand scroll
 
-  // Modal popup$(function () {
-  $('.portfolio-item').magnificPopup({
-    type: 'inline',
-    preloader: false,
-    focus: '#username',
-    modal: true
-  });
-  $(document).on('click', '.portfolio-modal-dismiss', function(e) {
-    e.preventDefault();
-    $.magnificPopup.close();
-  });
-
-  // Floating label headings for the contact form
+  // Labal flotant
   $(function() {
     $("body").on("input propertychange", ".floating-label-form-group", function(e) {
       $(this).toggleClass("floating-label-form-group-with-value", !!$(e.target).val());
@@ -72,4 +52,4 @@
     });
   });
 
-})(jQuery); // End of use strict
+})(jQuery); 
