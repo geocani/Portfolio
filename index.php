@@ -25,7 +25,7 @@
 
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top text-uppercase" id="mainNav">
-        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+        <button class="navbar-toggler navbar-toggler-right text-uppercase bg-primary text-white rounded " type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
             <i class="fas fa-bars"></i>Menu
         </button>
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -147,7 +147,7 @@
                     <div class="ico-comp">
                         <img src="assets/img/nouveau/uxui1.svg"  width="150px" alt="">
                         <h3>UX / UI</h3>
-                        <p>Pour une meilleur expérience utilisateur, je privilégie les interfaces intuitives et faciles à utiliser.</p>
+                        <p>Pour une meilleure expérience utilisateur, je privilégie les interfaces intuitives et faciles à utiliser.</p>
                     </div>
                     <div class="ico-comp">
                         <img src="assets/img/nouveau/dynamique2.svg"  width="150px" alt="">
@@ -181,7 +181,7 @@
                     </div>
                     <div class="item">
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar" style="width: 90%"><p>SASS/SCSS</p></div>
+                            <div class="progress-bar theme-progress-bar" style="width: 80%"><p>SASS/SCSS</p></div>
                         </div>                               
                     </div>
                     <div class="item">
@@ -201,7 +201,7 @@
                     </div>
                     <div class="item">
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar"style="width: 90%"><p>XML/SVG</p></div>
+                            <div class="progress-bar theme-progress-bar"style="width: 80%"><p>XML/SVG</p></div>
                         </div>                               
                     </div>
                 </div>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="item">
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar"style="width: 80%"><p>MySql</p></div>
+                            <div class="progress-bar theme-progress-bar"style="width: 70%"><p>MySql / CRUD</p></div>
                         </div>                               
                     </div>
                     <div class="item">
@@ -223,7 +223,7 @@
                     </div>
                     <div class="item">
                         <div class="progress level-bar">
-                            <div class="progress-bar theme-progress-bar"style="width: 60%"><p>Json</p></div>
+                            <div class="progress-bar theme-progress-bar"style="width: 50%"><p>Symfony</p></div>
                         </div>                               
                     </div>
                     <div class="item">
@@ -276,11 +276,11 @@
                 <h2><span class="icon-holder"><i class="fas fa-pencil-alt ic"></i></span>Réalisations</h2>
                 <p class="cit"><span class="gm">“ </span> Le but de la vie est le développement personnel. Parvenir à une parfaite réalisation de sa nature, bla bla bla.<span class="gm">”</span> - <span class="auteur">Wilde (Oscar)</span> -</p>
             </div>
-            <div class="row">
-                <!--Déplacements-->
-                <div class="col-lg-4 col-sm-6 ">
-                    <div class="card h-100">
-                        <a href="http://www.deplacements.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-deplacements.svg" alt=""></a>
+            <div class="row row1">
+                <div class="col-lg-3 col-sm-6 ">
+                <!-- Déplacement -->
+                    <div class="card card0">
+                    <a href="http://www.deplacements.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-deplacements.svg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">Déplacements</h4>
                             <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
@@ -290,72 +290,102 @@
                         </div>
                     </div>
                 </div>
-                <!--Stage-->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card h-100">
-                        <a href="http://www.geoffrey.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/stage.png" alt=""></a>
+                <div class="col-lg-3 col-sm-6 ">
+                <!-- Didier Motte -->
+                    <div class="card card0">
+                    <a href="http://www.dm.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-dm.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Didier Motte</h4>
+                            <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.dm.surikate.be/" target="blank" >Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                <!-- Stage -->
+                    <div class="card card0">
+                    <a href="http://www.geoffrey.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/stage.png" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">Demande de stage</h4>
                             <p class="card-text">Petit site réalisé en quelques heures pour ma recherche de stage en 2018. (Finalement effectué à la Province de Namur)</p>
                         </div>
                         <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.geoffrey.surikate.be/" target="blank">Visiter</a>
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.geoffrey.surikate.be/" target="blank" >Visiter</a>
                         </div>
                     </div>
                 </div>
-                <!--Mémory-->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card h-100">
-                        <a href="http://www.memory.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-memory.svg" alt=""></a>
+                <div class="col-lg-3 col-sm-6 ">
+                <!--Memory -->
+                    <div class="card card0">
+                    <a href="http://www.memory.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-memory.svg" alt=""></a>
                         <div class="card-body">
                             <h4 class="card-title">Jeu de mémoire</h4>
-                            <p class="card-text">Le jeu se compose de paires portant des illustrations identiques, Retourne deux cartes. Si les cartes sont identiques, vous avez gagné</p>
+                            <p class="card-text">Le jeu se compose de paires d'illustrations, Retournez deux cartes. Si les cartes sont identiques, vous avez gagné.</p>
                         </div>
                         <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.memory.surikate.be/" target="blank">Visiter</a>
-                        </div>
-                    </div>
-                </div>
-                <!--Juste Prix-->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card h-100">
-                        <a href="http://www.justeprix.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-plusmoins.png" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">Le juste prix</h4>
-                            <p class="card-text">Le jeu consiste à évaluer correctement le prix de divers biens de consommation à l'aide des indice plus ou moins.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.justeprix.surikate.be/" target="blank">Visiter</a>
-                        </div>
-                    </div>
-                </div>
-                <!--Casse Briques-->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card h-100">
-                        <a href="http://www.cassebriques.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/cassebriques.png" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">Casse Briques</h4>
-                            <p class="card-text">Le casse-briques est un type de jeu vidéo. Il s'agit d'une évolution de Pong apparue en 1976.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.cassebriques.surikate.be/" target="blank">Visiter</a>
-                        </div>
-                    </div>
-                </div>
-                <!--Pendu-->
-                <div class="col-lg-4 col-sm-6">
-                    <div class="card h-100">
-                        <a href="http://www.pendu.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-pendu.png" alt=""></a>
-                        <div class="card-body">
-                            <h4 class="card-title">Pendu</h4>
-                            <p class="card-text">"Le Pendu" consiste à trouver un mot en devinant les lettres qui le composent. Le jeu se joue traditionnellement à deux.</p>
-                        </div>
-                        <div class="card-link">
-                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.pendu.surikate.be/" target="blank">Visiter</a>
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.memory.surikate.be/" target="blank" >Visiter</a>
                         </div>
                     </div>
                 </div>
             </div>
+            <div class="row row1">
+                <div class="col-lg-3 col-sm-6 ">
+                <!-- Juste prix -->
+                    <div class="card card0">
+                    <a href="http://www.justeprix.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-plusmoins.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Juste Prix</h4>
+                            <p class="card-text">Le jeu consiste à évaluer correctement le prix de divers biens de consommation à l'aide des indice "plus" ou "moins".</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.justeprix.surikate.be/" target="blank" >Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                <!-- Casse briques -->
+                    <div class="card card0">
+                    <a href="http://www.cassebriques.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/cassebriques.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Casse Briques</h4>
+                            <p class="card-text">Revisite des célèbres jeux "Pong" et "Breakout". Jeux des années 70 souvent classé dans la catégorie arcade.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.cassebriques.surikate.be/" target="blank" >Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                <!-- Pendu -->
+                    <div class="card card0">
+                    <a href="http://www.pendu.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-pendu.png" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Demande de stage</h4>
+                            <p class="card-text">"Le Pendu" consiste à trouver un mot en devinant les lettres qui le composent. Le jeu se joue traditionnellement à deux.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.pendu.surikate.be/" target="blank" >Visiter</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-sm-6 ">
+                <!--  -->
+                    <!-- <div class="card card0">
+                    <a href="http://www.pendu.surikate.be/" target="blank"><img class="card-img-top" src="assets/img/ban-memory.svg" alt=""></a>
+                        <div class="card-body">
+                            <h4 class="card-title">Jeu de mémoire</h4>
+                            <p class="card-text">Gestion des déplacements du personnel (mission, réunion, formation, service, livraison…) au moyen de leur véhicule personnel.</p>
+                        </div>
+                        <div class="card-link">
+                            <a href="">En savoir plus</a><p class="colorprim">|</p><a href="http://www.memory.surikate.be/" target="blank" >Visiter</a>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+
+            
             
             <!-- Pagination -->
             <!-- <ul class="pagination justify-content-center">
@@ -479,12 +509,12 @@
                     <div class="ico-comp">
                         <img src="assets/img/nouveau/autoform.svg"  width="150px" alt="">
                         <h3>Formations</h3>
-                        <p>BeCode m'a appris à être autodidacte et à me réactualiser régulierement.</p>
+                        <p>BeCode m'a appris à être autodidacte et à me réactualiser régulièrement.</p>
                     </div>
                     <div class="ico-comp">
                         <img src="assets/img/nouveau/team.svg"  width="150px" alt="">
                         <h3>Equipe</h3>
-                        <p>"Ensemble on va plus loin" J'aime exposer mes idees sous forme de workshop.</p>
+                        <p>"Ensemble on va plus loin" J'aime exposer mes idées sous forme de workshop.</p>
                     </div>
                 </div>
             </div>
@@ -581,7 +611,7 @@
     <!-- Scroll top -->
     <div class="scroll-to-top d-lg-none position-fixed ">
         <a class="js-scroll-trigger d-block text-center text-white rounded" href="#page-top">
-            <i class="fa fa-chevron-up"></i>
+            <i class="fab fa fa-chevron-up"></i>
         </a>
     </div>
 
